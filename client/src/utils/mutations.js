@@ -41,10 +41,6 @@ export const SAVE_BOOK = gql`
       image: $image
       link: $link
     ) {
-      User {
-        _id
-        username
-      }
     }
   }
 `;
